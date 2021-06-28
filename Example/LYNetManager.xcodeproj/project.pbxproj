@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		31D4ED15A604B28EC8ED6306 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		31D4ED15A604B28EC8ED6306 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		52F850B29E720A6C2B3FBA31 /* Pods-LYNetManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYNetManager_Example.release.xcconfig"; path = "Target Support Files/Pods-LYNetManager_Example/Pods-LYNetManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LYNetManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYNetManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,9 +62,9 @@
 		77F797203D7DDAC6A6359DD8 /* Pods-LYNetManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYNetManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LYNetManager_Tests/Pods-LYNetManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7F9AC1F374FF7C96121AE4D5 /* Pods_LYNetManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYNetManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9844111766EDD3FFD9324536 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9844111766EDD3FFD9324536 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9C12C62DA239B9394960F651 /* Pods_LYNetManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYNetManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD6B9B5ECF193662F44D509B /* LYNetManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LYNetManager.podspec; path = ../LYNetManager.podspec; sourceTree = "<group>"; };
+		CD6B9B5ECF193662F44D509B /* LYNetManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LYNetManager.podspec; path = ../LYNetManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CEA460F67CC823ADDB749078 /* Pods-LYNetManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYNetManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-LYNetManager_Tests/Pods-LYNetManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F2446B71D512FB911BCD847A /* Pods-LYNetManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYNetManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-LYNetManager_Example/Pods-LYNetManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				77F797203D7DDAC6A6359DD8 /* Pods-LYNetManager_Tests.debug.xcconfig */,
 				CEA460F67CC823ADDB749078 /* Pods-LYNetManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
