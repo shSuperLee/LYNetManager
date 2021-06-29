@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'LYNetManager_Example' do
-  pod 'LYNetManager', :path => '../'
+  pod 'LYNetManager', :path => 'https://github.com/shSuperLee/LYNetManager.git'
 
   target 'LYNetManager_Tests' do
     inherit! :search_paths
